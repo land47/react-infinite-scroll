@@ -1,0 +1,36 @@
+{
+  "name": "@unexp/react-inifinite-scroll",
+  "version": "1.0.0",
+  "description": "Extra small infinite scroll component for react",
+  "author": "Anton Zahariev <jjoska@yandex.ru>",
+  "source": "index.tsx",
+  "main": "dist/index.js",
+  "exports": "dist/index.js",
+  "module": "dist/index.module.js",
+  "unpkg": "dist/index.umd.js",
+  "files": ["dist"],
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "infinite-scroll",
+    "infinite-scroll-component"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/land47/react-infinite-scroll"
+  },
+  "bugs": {
+    "url": "https://github.com/land47/react-infinite-scroll/issues"
+  },
+  "homepage": "https://github.com/land47/react-infinite-scroll",
+  "peerDependencies": {
+    "react": "^17.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.2"
+  },
+  "scripts": {
+    "build": "yarn dlx microbundle build --jsx React.createElement --external react"
+  }
+}
