@@ -1,5 +1,5 @@
 {
-  "name": "@unexp/react-inifinite-scroll",
+  "name": "@unexp/react-infinite-scroll",
   "version": "1.0.0",
   "description": "Extra small infinite scroll component for react",
   "author": "Anton Zahariev <jjoska@yandex.ru>",
@@ -8,7 +8,9 @@
   "exports": "dist/index.js",
   "module": "dist/index.module.js",
   "unpkg": "dist/index.umd.js",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "types": "dist/index.d.ts",
   "license": "MIT",
   "keywords": [
